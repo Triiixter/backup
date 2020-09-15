@@ -1,0 +1,41 @@
+kunwarbhargava2018@gmail.com ====> Triiixter
+kunwarbhargava2000@gmail.com ====> Ashwincodes
+
+
+git config-->
+git config --global user.name "username"
+git config --global user.email "email"
+
+
+
+
+
+
+
+for adding to git--->
+git init
+--------------------if want to ignore some files------------------
+gedit .gitignore
+/foldername/
+/path to file name/
+------------------------------------------------------------------
+git add.
+
+git commit -m "message"
+
+
+
+
+
+
+for adding to remote git---->
+git remote add origin "repository's link"
+git push -f origin master
+
+
+
+
+git ls-remote origin //to check pushed branches
+git branch -d "branchname"       //to delete branch locally
+git push origin --delete "branchname"       //to delete branch remotely
+git fetch -p //to synchronize branches
